@@ -1,5 +1,6 @@
 # ThemePicker
 PRODUCT_PACKAGES += \
+    DerpThemesStub \
     ThemePicker
 
 # Applications
