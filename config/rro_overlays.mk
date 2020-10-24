@@ -28,6 +28,19 @@ PRODUCT_PACKAGES += \
     IconPackRoundedPixelThemePickerOverlay \
     PixelSetupWizardOverlayDerp
 
+# Custom Overlays
+PRODUCT_PACKAGES += \
+    SystemRavenBlackOverlay \
+    SystemUIRavenBlackOverlay \
+    SystemDarkGrayOverlay \
+    SystemUIDarkGrayOverlay \
+    SystemStyleOverlay \
+    SystemUIStyleOverlay \
+    SystemNightOverlay \
+    SystemUINightOverlay \
+    SystemSolarizedDarkOverlay \
+    SystemUISolarizedDarkOverlay
+
 # Navbar
 PRODUCT_PACKAGES += \
     GesturalNavigationOverlayLong \
