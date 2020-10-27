@@ -114,7 +114,9 @@ PRODUCT_RESTRICT_VENDOR_FILES := false
 PRODUCT_PACKAGE_OVERLAYS += \
     vendor/derp/overlay
 
-PRODUCT_ENFORCE_RRO_TARGETS := *
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
+    vendor/derp/frameworks \
+    vendor/derp/packages
 
 # Inherit from apex config
 $(call inherit-product, vendor/derp/config/apex.mk)
